@@ -1,16 +1,72 @@
-# React + Vite
+# Mohamed Elsharaby: System Integration & Cloud Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a modern, responsive personal portfolio website designed to showcase skills, experience, and certifications in **IT System Integration**, **AWS Cloud Engineering**, and **Network Administration**.
 
-Currently, two official plugins are available:
+The application features smooth animations and a subtle **3D network visualization** background for a professional, tech-focused look.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Bilingual Support**: Full content localization in **English (EN)** and **German (DE)** for international applications.
+* **3D Network Visualization**: A subtle, non-distracting **3D background** using **Three.js** to represent networking and systems integration expertise.
+* **Responsive Design**: Fully adaptive layout ensured by **Tailwind CSS**, perfect for viewing on mobile, tablet, and desktop devices.
+* **Professional Timeline**: Clear, easy-to-read timelines for **Work Experience** and **Education** sections.
+* **Dynamic Certifications Grid**: Dedicated section to prominently display **AWS** and **Huawei Cloud** certifications with direct links.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+| Category | Technology | Purpose |
+| :--- | :--- | :--- |
+| **Framework** | **React** (Vite) | Main component-based UI library |
+| **Styling** | **Tailwind CSS** | Utility-first CSS framework for rapid design |
+| **Animations** | **Framer Motion** | Declarative animation library |
+| **3D Graphics** | **Three.js** | Creating the 3D network visualization background |
+| **Icons** | **Lucide React** | Simple, consistent icon set |
+
+---
+
+## 🚀 Getting Started (Local Setup)
+
+Follow these steps to clone and run the project locally.
+
+### Prerequisites
+
+You must have **Node.js** (which includes npm) installed on your machine.
+
+### 1. Installation
+
+First, clone your repository from GitHub and install all necessary dependencies.
+
+```bash
+# Clone your repository (use your actual repository link)
+git clone [https://github.com/YourUsername/mohamed-portfolio.git](https://github.com/YourUsername/mohamed-portfolio.git)
+
+# Navigate into the project directory
+cd mohamed-portfolio
+
+# Install all main and dev dependencies
+npm install
+```
+### 2. Run the Development Server
+
+The Tailwind CSS and other configurations are already set up. You can start the development server directly:
+
+```bash
+npm run dev
+```
+
+## ☁️ Deployment
+
+This project is built using **Vite** (a modern front-end build tool), which makes deployment extremely fast and easy on platforms like **Vercel** or **Netlify**.
+
+### Vercel / Netlify Deployment
+
+1.  Connect your **GitHub** account to your preferred platform (Vercel or Netlify).
+2.  Select the repository (`xxxxx-portfolio`).
+3.  Use the following configuration (usually the default for Vite/React):
+    * **Build Command**: `npm run build`
+    * **Output Directory**: `dist`
+4.  Click **Deploy**. Your portfolio will be live within minutes!
